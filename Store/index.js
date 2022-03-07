@@ -1,7 +1,7 @@
 import { configureStore, createSlice } from "@reduxjs/toolkit";
 const appState = {
   Items: [],
-  search: "Mens ",
+  search: "",
 };
 const appStore1 = createSlice({
   name: "appstore1",
